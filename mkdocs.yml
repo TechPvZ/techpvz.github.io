@@ -1,0 +1,42 @@
+site_name: My Docs
+theme:
+  name: material
+
+nav:
+- Home: index.md
+- Survival Endless:
+  - 'Introduction': 'survival/intro.md'
+  - Cobbed:
+    - 'Skill Rating': 'survival/cobbed/rating.md'
+  - Cobless:
+    - 'Introduction': 'survival/cobless/intro.md'
+    - 'Skill Rating': 'survival/cobless/rating.md'
+  - Low-cobbed:
+    - 'Skill Rating': 'survival/low-cobbed/rating.md'
+  - Scripted:
+    - 'Skill Rating': 'survival/scripted/rating.md'
+  - 'Tempo System': 'survival/tempo.md'
+  - 'Rank Theory': 'survival/rank-theory.md'
+  - 'Precise Data': 'survival/precise-data.md'
+  - 'Spawning Mechanics': 'survival/spawning.md'
+  - Setups:
+    - 'Kaleidoscope': 'survival/setups/kaleidoscope.md'
+- I, Zombie:
+  - 'Introduction': 'i-zombie/intro.md'
+  - 'Level of type A': 'i-zombie/level-a.md'
+  - 'Practical Notes': 'i-zombie/notes.md'
+- Vasebreaker:
+  - 'Introduction': 'vasebreaker/intro.md'
+- Adventure:
+  - 'Introduction': 'adventure/intro.md'
+
+
+# Mathjax
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
