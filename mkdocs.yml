@@ -30,8 +30,7 @@ nav:
 - Adventure:
   - 'Introduction': 'adventure/intro.md'
 
-
-# Mathjax
+# MathJax
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
